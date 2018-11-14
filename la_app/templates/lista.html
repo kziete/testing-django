@@ -1,0 +1,8 @@
+<ul>
+{% for object in object_list %}
+    <li>
+        <a href="/detalle/{{object.id}}">{{object}}</a>
+    </li>
+{% endfor %}
+</ul>
+<a href="/agregar">Crear</a>
